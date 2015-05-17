@@ -37,6 +37,8 @@ set clipboard+=unnamed
 
 inoremap jj <Esc>
 
+nmap <CR> i<CR><ESC>
+
 " ESCを二回押すことでハイライトを消す
 nmap <silent> <Esc><Esc> :nohlsearch<CR>
 " TABにて対応ペアにジャンプ
@@ -136,6 +138,16 @@ NeoBundle 'jpalardy/vim-slime'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'Townk/vim-autoclose'
+
+" tweetvim
+NeoBundle 'https://github.com/basyura/bitly.vim.git'
+NeoBundle 'https://github.com/basyura/TweetVim.git'
+NeoBundle 'https://github.com/basyura/twibill.vim.git'
+NeoBundle 'https://github.com/h1mesuke/unite-outline.git'
+NeoBundle 'https://github.com/mattn/webapi-vim.git'
+NeoBundle 'https://github.com/tyru/open-browser.vim.git'
+NeoBundle 'https://github.com/yomi322/neco-tweetvim.git'
+NeoBundle 'https://github.com/yomi322/unite-tweetvim.git'
 
 NeoBundle 'Shougo/vimproc.vim', {
   \ 'build' : {
